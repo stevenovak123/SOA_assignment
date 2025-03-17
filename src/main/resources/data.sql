@@ -5,7 +5,7 @@ INSERT INTO soa.city (id, city, latitude, longitude) VALUES ('4', 'Liverpool', '
 INSERT INTO soa.city (id, city, latitude, longitude) VALUES ('5', 'Brighton', '36.063168', '-95.881668');
 
 
-INSERT INTO soa.activity (id, description, name, type) VALUES ('1', 'In national parks and nature reserves.', 'Bushwalking', 'Outdoor');
+INSERT INTO soa.activity (description, name, type) VALUES ( 'In national parks and nature reserves.', 'Bushwalking', 'Outdoor');
 INSERT INTO soa.activity (description, name, type) VALUES ('On trails in mountains and parks.', 'Hiking', 'Outdoor');
 INSERT INTO soa.activity (description, name, type) VALUES ('In limestone caves and caverns.', 'Cave Tours ', 'Outdoor');
 INSERT INTO soa.activity (description, name, type) VALUES ('On cliffs, rocks.', 'Rock Climbing & Abseiling', 'Outdoor');

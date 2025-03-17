@@ -2,20 +2,12 @@
 
 Activity-Service as a part GW-2 of our SOA subject
 
-# Team Members
-
-1. Mohamed Abbass – (249050858)
-2. Ola Joseph – (249057614)
-3. Uy Binh Gia, Vu – (249053801)
-4. Manasseh Kola - (249057989)
-5. Thomas Shun Hau - (249043010)
-6. Steve Dsouza – (249052670)
-
 ## Project Setup
 
 This project is built in Spring Boot java
 
-### Pre-requisites for the project 
+### Pre-requisites for the project
+
 - Java
 
 - Maven
@@ -58,9 +50,9 @@ This project is built in Spring Boot java
 
 - `git push origin <your_name_branch>`
 
-
 ### Database
-- To get the database up and running update the `spring.datasource.url=jdbc:mysql://localhost:3306/soa` in the `application.properties` file 
+
+- To get the database up and running update the `spring.datasource.url=jdbc:mysql://localhost:3306/soa` in the `application.properties` file
 - `/soa` is the schema name currently set. Accordingly update the port number to the MySQL service running on your system.
 
 ### Run the project by Running it as a Spring boot application
@@ -74,16 +66,19 @@ This project is built in Spring Boot java
 ## Project Structure
 
 ### entity
+
 - Contains all the models of the project.
 
 ### repository
+
 - Contains code that will access the database and carry out database operations.
 
 ### service
+
 - Contains business logic code.
 
 ### controller
-- contains the api routes and information about the api.
 
+- contains the api routes and information about the api.
 
 Controller -> Service -> Repository (Interface)
