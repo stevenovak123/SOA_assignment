@@ -24,7 +24,7 @@ This project is built in Spring Boot java
 
 ### Clone the GitLab repository
 
-- `git clone https://campus.cs.le.ac.uk/gitlab/soa/activity-service.git `
+- `git clone https://github.com/stevenovak123/SOA_assignment.git `
 
 ### Move into the project directory
 
